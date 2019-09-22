@@ -1,12 +1,14 @@
-package com.sg.j8.lampdaExp;
+package collection;
 
-public class Person {
+import collection.Pet;
+
+public class Persons {
     private final String name;
     private final String country;
     private final String city;
     private final Pet pet;
 
-    public Person(String name, String country, String city, Pet pet) {
+    public Persons(String name, String country, String city, Pet pet) {
         this.name = name;
         this.country = country;
         this.city = city;

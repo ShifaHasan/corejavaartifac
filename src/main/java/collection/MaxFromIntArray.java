@@ -1,4 +1,4 @@
-package com.sg.j8.simpleArrayProm;
+package collection;
 
 public class MaxFromIntArray {
 

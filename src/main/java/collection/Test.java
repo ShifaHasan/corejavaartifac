@@ -1,4 +1,4 @@
-package com.sg.j8.lampdaExp;
+package collection;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -15,7 +15,7 @@ public class Test {
         List<Integer> ints = t.createArrayListObject();
         playWithJAva8(ints );
         sortList(ints);
-        Map<String, Person> hashMap= createMAp();
+        Map<String, Persons> hashMap= createMAp();
         System.out.println(hashMap);
 
         /*hashMap.entrySet().stream().sorted(
@@ -24,8 +24,8 @@ public class Test {
         //HashSet
     }
 
-    private static Map<String, Person> createMAp() {
-        Map<String,Person> map = new HashMap<>();
+    private static Map<String, Persons> createMAp() {
+        Map<String, Persons> map = new HashMap<>();
         /*map.put("A",new Person(5, "EE", 51, "A"));
         map.put("D",new Person(4, "DD", 25, "D"));
         map.put("B",new Person(3, "CC", 44, "B"));*/

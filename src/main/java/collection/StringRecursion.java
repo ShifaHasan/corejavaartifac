@@ -1,4 +1,4 @@
-package com.sg.j8.recursion;
+package collection;
 
 import java.util.HashMap;
 import java.util.Iterator;

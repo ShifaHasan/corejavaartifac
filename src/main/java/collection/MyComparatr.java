@@ -1,12 +1,12 @@
-package com.sg.j8.oldref;
+package collection;
 
 
 
-import com.sg.j8.sorting.Emp;
+import collection.Emp;
 
 import java.util.Comparator;
 
-public class MyComparator implements Comparator<Emp>{
+public class MyComparatr implements Comparator<Emp>{
 
 	private int type;
 

@@ -1,7 +1,5 @@
-package com.sg.j8.oldref;
+package collection;
 
-
-import com.sg.j8.sorting.Emp;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -52,7 +50,7 @@ public class HelloSet2 {
 			System.out.println(it.next());
 		}	
 
-		MyComparator mycomp = new MyComparator();
+		MyComparatr mycomp = new MyComparatr();
 		int type = 1;// Integer.parseInt(JOptionPane.showInputDialog("Enter sorting type(1 for id, 2 for name"));
 		mycomp.setSortType(type);
 		TreeSet<Emp> tset1 = new TreeSet<Emp>(mycomp);		
@@ -70,7 +68,7 @@ public class HelloSet2 {
 		hmap.put(5, new Emp(902, "bcd", 776));
 		Set<Map.Entry<Integer, Emp>> keySet = hmap.entrySet();		
 		ArrayList as = new ArrayList(keySet); //size of array is five.		
-		MyComparatorMapEntry mycomparator = new MyComparatorMapEntry() ;
+		MyComptrMapEntry mycomparator = new MyComptrMapEntry() ;
 		mycomparator.setSortType(2);
 		Collections.sort(as,mycomparator);
 		System.out.println(as);

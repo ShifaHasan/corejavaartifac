@@ -1,4 +1,4 @@
-package com.sg.j8.lampdaExp;
+package collection;
 
 public class Pet {
     private final String name;

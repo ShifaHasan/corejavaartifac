@@ -1,4 +1,4 @@
-package com.sg.j8.designpattern;
+package collection;
 
 public class Decorator {
 

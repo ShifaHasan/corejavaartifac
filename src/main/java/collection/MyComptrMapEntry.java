@@ -1,12 +1,12 @@
-package com.sg.j8.oldref;
+package collection;
 
 
-import com.sg.j8.sorting.Emp;
+import collection.Emp;
 
 import java.util.Comparator;
 import java.util.Map;
 
-public class MyComparatorMapEntry  implements Comparator<Map.Entry<Integer, Emp>> {
+public class MyComptrMapEntry implements Comparator<Map.Entry<Integer, Emp>> {
 	private int type;
 	//public int compare(Map.Entry<Integer, Emp> e1, Map.Entry<Integer, Emp> e2) {
 	public int compare(Map.Entry<Integer, Emp> e1, Map.Entry<Integer, Emp> e2) {

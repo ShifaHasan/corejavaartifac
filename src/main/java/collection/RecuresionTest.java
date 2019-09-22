@@ -1,4 +1,4 @@
-package com.sg.j8.recursion;
+package collection;
 
 public class RecuresionTest {
 

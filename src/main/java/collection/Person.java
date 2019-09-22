@@ -1,4 +1,4 @@
-package com.sg.j8.sorting;
+package collection;
 
 public class Person {
 

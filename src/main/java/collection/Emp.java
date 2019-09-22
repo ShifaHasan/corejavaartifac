@@ -1,4 +1,4 @@
-package com.sg.j8.sorting;
+package collection;
 
 public class Emp implements Comparable<Emp>{
 	private int empId;
